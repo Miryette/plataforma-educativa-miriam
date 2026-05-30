@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --color-primario: #121960;
     --color-primario2: #253187;
@@ -42,4 +43,50 @@
     --padding-xl: 100px;
 
     --shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+=======
+:root {
+    --color-primario: #121960;
+    --color-primario2: #253187;
+    --color-primario3: #889bd0;
+    --color-primario4: #263499;
+    --color-secundario: #0050ff;
+    --color-secundario2: #3a0f9e;
+    --color-secundario3: #a78bfa;
+    --color-accent:#22d3ee;
+    --color-accent2:#22d3eec7;
+    --color-negro: #000000;
+    --color-gris: #4e4c4c;
+    --color-gris2: #4e4c4c13;
+    --color-gris3: #4242421c;
+    --color-blanco: #ffffff;
+
+    --font-titulos: "Space Grotesk", sans-serif;
+    --font-texto: "Inter", sans-serif;
+
+    --text-xs: 12px; /* caption */
+    --text-s: 20px; /* texto normal */
+    --text-m: 28px; /* texto base (small) */    
+    --text-l: 30px; /* texto (h6) */
+    --text-xl: 39px; /* subtitulos (h5) */
+    --text-xxl: 50px; /* Titulos grandes (h4) */
+    --text-header: 65px; /* Titulos de secciones (h3) */
+    --text-title: 90px; /* Titulos de página (h2) */
+    --text-hero: 110px; /* Titulo principal (h1) */
+
+    --spacing-s: 10px;
+    --spacing-m: 20px;
+    --spacing-l: 50px;
+    --spacing-xl: 100px;
+    --spacing-xxl: 200px;
+
+    --radius-s: 4px;
+    --radius-m: 10px;
+
+    --padding-s: 10px;
+    --padding-m: 20px;
+    --padding-l: 50px;
+    --padding-xl: 100px;
+
+    --shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+>>>>>>> f824eda55d443534624676249889fc49ceaba301
 }
