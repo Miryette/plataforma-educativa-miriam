@@ -49,13 +49,13 @@ header {
   color: var(--color-blanco);
   width: 100%;
   box-sizing: border-box;
-  padding: var(--spacing-s);
+  padding: var(--padding-s);
 }
 
 nav {
   background-color: var(--color-primario);
   color: var(--color-blanco);
-  padding: var(--spacing-s);
+  padding: var(--padding-xs);
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -77,15 +77,16 @@ nav li {
 nav a {
   color: var(--color-blanco);
   text-decoration: none;
-  padding: var(--padding-s ); 
+  padding: var(--padding-xs); 
   border-radius: var(--radius-s);
   display: inline-block;
   font-size: var(--text-xl);
+  transition: 0.3s ease;
 }
 
 .pagina-actual {
   color: var(--color-blanco);
-  padding: var(--padding-s ); 
+  padding: var(--padding-s); 
   border-radius: var(--radius-s);
   background-color: var(--color-blanco);
   color: var(--color-primario);
@@ -95,6 +96,7 @@ nav a {
 .menu-der a:hover {
   background-color: var(--color-blanco);
   color: var(--color-primario);
+  padding: var(--padding-s);
 }
 
 nav img {
@@ -301,9 +303,8 @@ nav img {
 
 .card-grid {
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 50px; 
+  gap: 20px;
+  justify-items: center;
   padding: var(--padding-l);
 }
 
@@ -315,7 +316,8 @@ nav img {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .cicle {
@@ -399,9 +401,8 @@ nav img {
 .mision-texto {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
   margin-right: 100px;
-  gap: 50px;
+  gap: 20px;
 }
 
 .mision-texto h6 {
@@ -415,9 +416,8 @@ nav img {
 }
 
 .mision img {
-  width: 900px;
-  height: 600px;
-  margin-right: 100px;
+  width: 700px;
+  height: 500px;
 }
 
 .valores {
@@ -658,12 +658,13 @@ form b {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 100px;
+  padding: 130px;
 }
 
 iframe {
-  width: 900px;
-  height: 800px;
+  width: 700px;
+  height: 600px;
 }
 
 .portada {
@@ -791,4 +792,5 @@ iframe {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
 }

@@ -22,10 +22,10 @@
     --text-s: 20px; /* texto normal */
     --text-m: 28px; /* texto base (small) */    
     --text-l: 30px; /* texto (h6) */
-    --text-xl: 39px; /* subtitulos (h5) */
-    --text-xxl: 50px; /* Titulos grandes (h4) */
-    --text-header: 65px; /* Titulos de secciones (h3) */
-    --text-title: 90px; /* Titulos de página (h2) */
+    --text-xl: 35px; /* subtitulos (h5) */
+    --text-xxl: 40px; /* Titulos grandes (h4) */
+    --text-header: 60px; /* Titulos de secciones (h3) */
+    --text-title: 70px; /* Titulos de página (h2) */
     --text-hero: 110px; /* Titulo principal (h1) */
 
     --spacing-s: 10px;
@@ -39,8 +39,8 @@
 
     --padding-s: 10px;
     --padding-m: 20px;
-    --padding-l: 50px;
-    --padding-xl: 100px;
+    --padding-l: 30px;
+    --padding-xl: 130px;
 
     --shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
 }
