@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperNova Tech - contacte</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/images/SUPERNOVA_LOGO.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>            
+            <ul class="menu-izq">
+                <li><a href="index.html"><img src="assets/images/SUPERNOVA_LOGO.png"></a></li>
+            </ul>
+            <ul class="menu-der">
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="sobre-nosaltres.html">Sobre Nosotros</a></li>
+                <li class="pagina-actual">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="grey contenedor-title">
+            <h2>Contacta amb nosaltres</h2>
+            <h5>Tens alguna pregunta? Estem aquí per ajudar-te. <br> Envia'ns un missatge i et respondrem el més aviat possible.</h5>
+        </section>
+        <section class="formulario">
+            <form>
+                <label for="nombre">Nom i cognoms: <b>*</b></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+
+                <label for="email">Email: <b>*</b></label>
+                <input type="email" id="email" name="email" placeholder="info@tucorreoelectronico.com" required>
+
+                <label for="telefono">Telèfon:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34123456789" pattern="\+34[0-9]{9}">
+
+                <label for="curso">Curs d'interès</label>
+                <select name="curso" id="curso">
+                    <option value="" selected disabled>Selecciona un curs</option>
+                    <option value="SMX">GM Sistemes Microinformàtics i xarxes</option>
+                    <option value="DAM">GS Desenvolupament d’Aplicacions Multiplataforma</option>
+                    <option value="DAW">GS Desenvolupament d’Aplicacions Web</option>
+                    <option value="ASIX">GS Administració de Sistemes Informàtics en Xarxa</option>
+                    <option value="Màster Ciberseguretat">Màster Ciberseguretat</option>
+                    <option value="Màster IA">Màster Intel·ligència Artificial i Big Data</option>
+                    <option value="Enginyeria Informàtica">Enginyeria Informàtica</option>
+                    <option value="Enginyeria en IA">Enginyeria en Intel·ligència Artificial i Dades</option>
+                    <option value="Enginyeria en Ciberseguretat">Enginyeria en Ciberseguretat</option>
+                </select>
+
+                <label for="mensaje">Missatge:</label>
+                <textarea  id="mensaje" name="mensaje" placeholder="Explica'ns en què et podem ajudar..." maxlength="500"></textarea>
+
+                <div class="politica-contenedor">
+                    <input type="checkbox" id="politica" name="politica" required>
+                    <label for="politica"> He llegit i accepto la <a href="/tu-politica-de-privacidad.html">Política de Privadesa</a></label>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="contenedor-contactos">
+            <div class="contactos">
+                <div class="contacto">
+                    <img src="assets/icons/arcticons_mapsgeobookmarks.png">
+                    <h5>Adreça</h5>
+                    <small>Carrer de la Tecnologia, 42 <br> 08001 Barcelona</small>
+                </div>
+                <div class="contacto">
+                    <img src="assets/icons/mdi-light_phone.png">
+                    <h5>Telèfon</h5>
+                    <small>+34 600 000 000</small>
+                </div>
+                <div class="contacto">
+                    <img src="assets/icons/mdi-light_email.png">
+                    <h5>Correu electrònic</h5>
+                    <small>supernova@tech.com</small>
+                </div>
+                <div class="contacto">
+                    <img src="assets/icons/mdi-light_clock (1).png">
+                    <h5>Horari</h5>
+                    <small>Dilluns a Divendres 9:00 - 18:00</small>
+                </div>
+            </div>
+            <div class="contenedor-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1780083853130!6m8!1m7!1sfy1sDOP0uneGGWoUiKwMuw!2m2!1d41.38216977234543!2d2.115509681748885!3f40.404120518242394!4f22.221697408893903!5f0.7820865974627469" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="footer-navegacion">
+                <h5>Navegació</h5>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="sobre-nosaltres.html">Sobre Nosaltres</a></li>
+                    <li><a href="contacte.html">Contacte</a></li>
+                </ul>
+            </div>
+     
+            <div class="footer-logo">            
+                <img src="assets/images/SUPERNOVA_LOGO completo.png">  
+                <div class="footer-redes">
+                    <img src="assets/icons/lets-icons_insta.svg">
+                    <img src="assets/icons/pajamas_twitter.svg">
+                    <img src="assets/icons/mdi_youtube.svg">
+                    <img src="assets/icons/ic_baseline-tiktok.svg">
+                </div>
+            </div>
+            <div class="footer-contacto">
+                <h5>Contacte</h5>
+                <p>supernova@tech.com</p>
+                <p>+34 600 000 000</p>
+                <p>Barcelona, Espanya</p>
+            </div>
+            </div>
+        <div class="footer-bottom">
+            <p>© 2026 SuperNova Tech. Tots els drets reservats.</p>
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
