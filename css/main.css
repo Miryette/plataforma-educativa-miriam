@@ -111,7 +111,7 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  padding: var(--padding-xxl);
   text-align: center;
   gap: var(--spacing-m);
 }
@@ -284,7 +284,7 @@ nav img {
 }
 
 .footer-bottom {
-  background-color: var(--color-gris);
+  background-color: var(--color-gris3);
   padding: 10px;
   text-align: center;
   color:var(--color-negro);
@@ -375,7 +375,7 @@ nav img {
 }
 
 .card b {
-  font-size: var(--text-m);
+  font-size: var(--text-l);
   color: black;
   min-height: 100px;
 }

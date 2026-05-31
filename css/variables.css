@@ -18,15 +18,15 @@
     --font-titulos: "Space Grotesk", sans-serif;
     --font-texto: "Inter", sans-serif;
 
-    --text-xs: 12px; /* caption */
-    --text-s: 20px; /* texto normal */
-    --text-m: 26px; /* texto base (small) */    
-    --text-l: 30px; /* texto (h6) */
-    --text-xl: 35px; /* subtitulos (h5) */
-    --text-xxl: 40px; /* Titulos grandes (h4) */
-    --text-header: 60px; /* Titulos de secciones (h3) */
-    --text-title: 70px; /* Titulos de página (h2) */
-    --text-hero: 110px; /* Titulo principal (h1) */
+    --text-xs: 12px;    /* caption */
+    --text-s: 16px;      /* texto normal */
+    --text-m: 20px;      /* texto destacado */
+    --text-l: 24px;      /* h6 */
+    --text-xl: 32px;     /* h5 */
+    --text-xxl: 40px;    /* h4 */
+    --text-header: 52px; /* h3 */
+    --text-title: 64px;  /* h2 */
+    --text-hero: 100px;   /* h1 */
 
     --spacing-s: 10px;
     --spacing-m: 20px;
@@ -40,7 +40,8 @@
     --padding-s: 10px;
     --padding-m: 20px;
     --padding-l: 30px;
-    --padding-xl: 130px;
+    --padding-xl: 60px;
+    --padding-xxl: 100px;
 
     --shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
 }
